@@ -41,13 +41,13 @@ const EmblaCarouselComponent = ({ autoplay, delayLength, children }) => {
     }
   }, [embla]);
 
-  function handleIsRunningChange(e) {
-    setIsRunning(e.target.checked);
-  }
+  // function handleIsRunningChange(e) {
+  //   setIsRunning(e.target.checked);
+  // }
 
-  function handleDelayChange(e) {
-    setDelay(Number(e.target.value));
-  }
+  // function handleDelayChange(e) {
+  //   setDelay(Number(e.target.value));
+  // }
 
   return (
     <div>

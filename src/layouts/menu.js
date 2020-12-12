@@ -13,7 +13,7 @@ const Menu = ({ children, site }) => (
                 <div className="navbar-brand ">
 
                     <Link  data-text={site.siteMetadata.siteName} to="/">
-                    <img src={BalajiSweetsLogo} width="175" height="75"/>
+                    <img src={BalajiSweetsLogo} width="175" height="75" alt={site.siteMetadata.siteName}/>
                     </Link>
 
                     {/* <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
