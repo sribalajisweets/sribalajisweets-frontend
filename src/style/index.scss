@@ -1,10 +1,18 @@
-@import "reset";
+@charset "utf-8";
+// If need, change your variables before importing Bulma
+$title-color: #ff0000;
+@import "~bulma/bulma.sass";
 
-@import "Container";
 @import "Catalogue";
-@import "Header";
-@import "Product";
-@import "Wrap";
-@import "Footer";
+
+// @import "Container";
+// @import "reset";
+// @import "Header";
+// @import "Product";
+// @import "Wrap";
+// @import "Footer";
 
 @import "snipcart";
+
+
+

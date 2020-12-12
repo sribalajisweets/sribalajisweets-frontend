@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'My Shop',
+    siteName: 'Sri Balaji Sweets',
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -17,6 +17,6 @@ module.exports = {
         apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
         autopop: true
       }
-    },
+    }
   ],
 }
